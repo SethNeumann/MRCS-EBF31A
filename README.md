@@ -1,33 +1,18 @@
-# REPO NAME: EagleTemplate-new
-## License: CERN Open Hardware Licence v1.2
+# REPO NAME: MRCS-EBF31A
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
-Delete one of the license lines above, and replace this line and following with the contents of the doc.md file
 
-### How to use this template:
 
-  1. Create a repo using this template, 
-  2. Use eagle to create your project
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+The Electronic Battery Feed 31A provides power and off hook detection for a telephone talk circuit suitable for a Model Railroad dispatchers’ line. This is one of the circuits described in the New Operations SIG Book, A Compendium of Model Railroad Operations, Chapter 9.
 
-This is a template for new eagle designs.
-It includes a blank schematic with a title block ready for editing and a
-default PCB that uses the SPCoast.lbr's BOARD component, Fiducials and an OSHW logo.
+EBF31A:
 
-First line: A short description of the project, used as a subtitle or tagline
-
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
-
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
+    Operates on 24 volts regulated DC, draws about 100 ma
+    Supports at least 4 phones off hook at once, suitable for reading and copying orders on a TT&TO railroad
+    Has a double-pole, double throw relay rated at 2A, with screw terminals for control of auxiliary circuits when off hook
+    Has an LED "off hook" indicator
+    Has an RJ11 jack and screw terminals for the phone line
+    Has a 2.1mm center positive jack and screw terminals for power (supplies available from Jameco, Radio Shack, Amazon)
+    Has a line level isolated monitor output on a stereo 3.5 mm audio jack
+    snaps into the same 2.75" DIN rail that MRCS cpNodes and IOX16/32 expanders use
 
