@@ -1,10 +1,14 @@
-### How to use this template:
+The Electronic Battery Feed 31A provides power and off hook detection for a telephone talk circuit suitable for a Model Railroad dispatchers’ line.  This is one of the circuits described in the New Operations SIG Book, A Compendium of Model Railroad Operations, Chapter 9.
 
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+ EBF31A:
+
+ Operates on 24 volts regulated DC, draws about 100 ma
+
+     Supports at least 4 phones off hook at once, suitable for reading and copying orders on a TT&TO railroad
+     Has a double-pole, double throw relay rated at 2A, with screw terminals for control of auxiliary circuits
+     has an LED "off hook" indicator
+     Has an RJ11 jack and screw terminals for the phone line
+     Has a 2.5mm center positive jack and screw terminals for power (supplies available from Jameco, Radio Shack, Amazon)
+     Has a line level isolated monitor output on a stereo 3.5 mm audio jack
+     snaps into the same 2.75" DIN rail that MRCS cpNodes and IOX16/32 expanders use
+     Draws 100 mA @ 24V with phones off hook
